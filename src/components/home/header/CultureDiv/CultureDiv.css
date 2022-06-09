@@ -1,0 +1,27 @@
+
+.cultureDiv{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 8px 0;
+    align-items: center;
+}
+.cultureDiv:hover{
+    background: #e9ecef;
+}
+.cultureDiv > p{
+    text-align: left;
+    font: normal normal 300 12px/16px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    text-decoration: none;
+}
+.cultureDiv > p > span{
+    color: #33B5E5;
+}
+
+.cultureDiv > img{
+    width: 13px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

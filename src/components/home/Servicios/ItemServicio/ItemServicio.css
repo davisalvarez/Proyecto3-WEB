@@ -1,0 +1,30 @@
+.service-container{
+    width: 1050px;
+    min-width: 1050px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.imgServicio{
+    width: 100%;
+}
+
+
+.contentServicio{
+    margin-right: 10px;
+}
+.contentServicio > h3{
+    text-align: left;
+    font: normal normal 300 34px/24px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+.contentServicio > p{
+    text-align: justify;
+    font: normal normal 300 16px/24px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}

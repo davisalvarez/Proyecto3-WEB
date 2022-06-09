@@ -1,0 +1,62 @@
+
+.divCulture {
+    width: 85px;
+    height: 50px;
+    position: relative;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.accCulture{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+.accCulture > img{
+    width: 27px;
+    height: 20px;
+    margin-right: 5px;
+    background: #152049;
+}
+.accCulture > p{
+    text-align: left;
+    font: normal normal 12px/16px TAG-font;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 4px !important;
+    width: 38px;
+}
+
+.cultureContainer{
+    position: absolute;
+    top:51px;
+    left: -100px;
+    width: 217px;
+    height: 257px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #000000BE;
+    opacity: 0.9;
+    z-index: 2;
+}
+.cultureContainer > p{
+    text-align: left;
+    font: normal normal 18px/25px TAG-font;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    padding: 12px;
+}
+
+.cultureContainer > p > span{
+    color: #33B5E5;
+}
+
+.accCulture > .arrowCulture{
+    width: 10px;
+    height: 7px;
+
+    transform: rotate(50deg);
+    transition: transform 0.7s ease;
+}

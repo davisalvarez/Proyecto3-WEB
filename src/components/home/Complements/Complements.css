@@ -1,0 +1,14 @@
+.complements-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.displayComplements{
+    width: 1190px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    cursor: grab;
+}

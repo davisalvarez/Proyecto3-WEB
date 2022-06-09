@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="42" viewBox="0 0 81 42">
+  <g id="ico_boarding-pass" transform="translate(-237 -1595)">
+    <g id="Rectangle_17181" data-name="Rectangle 17181" transform="translate(237 1595)" fill="none" stroke="#152049" stroke-width="1">
+      <rect width="81" height="42" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="80" height="41" rx="2.5" fill="none"/>
+    </g>
+    <path id="ico_flight_selct-flight" d="M19.53,1.739l.024-.7A1,1,0,0,0,18.516,0l-.7.024a.953.953,0,0,0-.6.241l-5.5,4.587L1.714,4.032A.909.909,0,0,0,.99,4.3L0,5.288,7.942,9.1,4.273,13.23l-2.825.145a.389.389,0,0,0-.314.145l-.386.386,3.283,1.617,1.617,3.283.386-.386a.425.425,0,0,0,.145-.314L6.3,15.258l4.176-3.694,3.838,7.942.99-.99a.909.909,0,0,0,.266-.724L14.75,7.8l4.587-5.5A1.263,1.263,0,0,0,19.53,1.739Z" transform="translate(257.566 1602) rotate(45)" fill="#152049"/>
+    <g id="Group_8727" data-name="Group 8727" transform="translate(0 2)">
+      <circle id="Ellipse_304" data-name="Ellipse 304" cx="1" cy="1" r="1" transform="translate(295 1598)" fill="#152049"/>
+      <circle id="Ellipse_307" data-name="Ellipse 307" cx="1" cy="1" r="1" transform="translate(295 1610)" fill="#152049"/>
+      <circle id="Ellipse_309" data-name="Ellipse 309" cx="1" cy="1" r="1" transform="translate(295 1622)" fill="#152049"/>
+      <circle id="Ellipse_305" data-name="Ellipse 305" cx="1" cy="1" r="1" transform="translate(295 1604)" fill="#152049"/>
+      <circle id="Ellipse_306" data-name="Ellipse 306" cx="1" cy="1" r="1" transform="translate(295 1616)" fill="#152049"/>
+      <circle id="Ellipse_308" data-name="Ellipse 308" cx="1" cy="1" r="1" transform="translate(295 1628)" fill="#152049"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+.carruselContainer{
+    position: relative;
+}
+.itemCarrusel{
+    width: 100%;
+    height: 0;
+    padding-top: 31.44%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    transition: background-image 0.9s ease;
+}
+
+.carruselControls{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}

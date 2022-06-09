@@ -1,0 +1,83 @@
+.modalBG{
+    width: 100%;
+    height: 100%;
+    background: #2B2B2B84;;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    z-index: 100;
+}
+
+.modalContainer{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000041;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.modalTYC{
+    width: 1000px;
+    height: 692px;
+    border-top: 2px solid #00A1ED ;
+}
+.modalHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalHeader > p{
+    width: 100%;
+    text-align: center;
+    font: normal normal 26px/36px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+.btnMClose{
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background-position: center;
+    border: none;
+    background-repeat: no-repeat;
+    background: white;
+    margin: 10px;
+    align-self: flex-end;
+}
+.TYCdiv{
+    padding: 10px;
+    height: 550px;
+    overflow-y: scroll;
+
+    user-select: all;
+    text-align: left;
+    font: normal normal normal 12px/16px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+
+/* width */
+.TYCdiv::-webkit-scrollbar {
+    width: 4px;
+    height: 1px;
+}
+
+/* Track */
+.TYCdiv::-webkit-scrollbar-track {
+    background: #90A4AF;
+}
+
+/* Handle */
+.TYCdiv::-webkit-scrollbar-thumb {
+    background: #00A1ED;
+    height: 1px;
+}
+

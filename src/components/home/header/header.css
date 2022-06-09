@@ -1,0 +1,474 @@
+/* ____________________________________ Header H A.K.A navbar ______________________________________________ */
+.imgHLogoTAG{
+    width: 103px;
+    justify-self: start;
+    align-self: center;
+    height: 17px;
+}
+.navbarTAG{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    padding: 0 78px;
+
+    height: 50px;
+    background: #152049;
+    z-index: 0;
+    min-width: 300px;
+}
+/*@media (max-width: 920px){
+    .imgHLogoTAG{
+        margin-left: 40px;
+    }
+
+    .navbarTAG{
+        height: 100px;
+        justify-content: flex-start;
+    }
+}*/
+
+.menuNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menuNavbarRes{
+    position: relative;
+    background: #C90019;
+   /* background-image: url("img/navbar/ico_header-menu-mobile.svg");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+
+    margin-left: 15px;
+}
+
+.btnSignIn {
+    width: 95px;
+    height: 22px;
+    border: 1px solid #00A1ED;
+    border-radius: 11px;
+    opacity: 1;
+    background: #152049;
+
+    text-align: center;
+    font: normal normal 12px/16px TAG-font;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.btnSignInRes{
+    width: 88px;
+    height: 22px;
+    border: 1px solid #00A1ED;
+    border-radius: 11px;
+    opacity: 1;
+    background: #152049;
+    display: block;
+    margin: 0.5rem 1rem;
+    margin-left: auto;
+}
+
+.txtNavItem {
+    font: normal normal 300 14px/19px TAG-font;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+
+    z-index: 1;
+}
+/* __________________________ M E N U ________________________________ */
+.divItemMenu{
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+.linksMovil{
+    display: flex;
+    flex-direction: column;
+}
+.linksMovil > a{
+    text-align: left;
+    font: normal normal normal 18px/62px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+.subMenuAcc button{
+    text-align: left;
+    font: normal normal 900 18px/62px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+.btnAccMenu{
+    text-align: left;
+    font: normal normal 900 20px/62px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+
+.subMenuAcc .accordion-item {
+    border: none;
+}
+
+.subMenuAcc .accordion-button::after {
+    width: 1rem;
+    height: 1rem;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-image: url("img/navbar/mas.svg") !important;*/
+
+}
+.finalBorder{
+    border-bottom: #A9B6C6 !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+}
+
+.subMenuAcc .accordion-button:not(.collapsed)::after {
+    width: 1rem;
+    height: 1rem;
+    /*background-image: url("img/navbar/-.svg") !important;*/
+background-size: 80%;
+background-repeat: no-repeat;
+background-position: center;
+transform: rotate(-180deg);
+}
+.txtHPaisSel{
+    text-align: left;
+    font: normal normal normal 12px/16px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+/* ____________ Item 0 -  _____________ */
+.divItemMenuRes{
+    height: 100px;
+    width: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 20px;
+    /*background-image: url("img/navbar/ico_header-menu-mobile.svg");
+    background-position: bottom 17px right -7px;
+    background-repeat: no-repeat;
+    background-size: 110%;*/
+}
+
+.btnMenuMovil{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: none;
+    /*background-image: url("img/navbar/ico_header-menu-mobile.svg");*/
+background-position: bottom -1px right -6px;
+background-repeat: no-repeat;
+background-size: 110%;
+}
+
+.flechaMRes{
+    position: absolute;
+    bottom: 0px;
+    left: 14px;
+    display: none;
+
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 12px;
+    z-index: 2001;
+    opacity: 0.9;
+}
+
+/*.menuItemRes:hover .flechaMRes {
+    display: block;
+}*/
+.menuItemRes {
+    overflow: hidden;
+    background: none;
+    border: none;
+}
+.itemMenuRes {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 99px;
+    z-index: 2000;
+}
+/*.menuItemRes:hover .itemMenuRes {
+    display: block;
+}*/
+
+/* __ accordion Menu movil __ */
+/*.accordion-menuRes > .accordion{
+    min-width: 300px;
+    background: red;
+}*/
+/* ____________ Item 1 - Tu vuelo_____________ */
+.flechaM1{
+    position: absolute;
+    bottom: 0px;
+    left: 18px;
+    display: none;
+
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 12px;
+    z-index: 2001;
+    opacity: 0.9;
+}
+.menuItem1:hover .flechaM1 {
+    display: block;
+}
+.menuItem1 {
+    overflow: hidden;
+}
+.itemMenu1 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    z-index: 2000;
+}
+.menuItem1:hover .itemMenu1 {
+    display: block;
+}
+/* ____________ Item 2 - Experiencia TAG _____________ */
+.flechaM2{
+    position: absolute;
+    bottom: 0px;
+    left: 37px;
+    display: none;
+
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 12px;
+    z-index: 2001;
+    opacity: 0.9;
+}
+.menuItem2:hover .flechaM2 {
+    display: block;
+}
+.menuItem2 {
+    overflow: hidden;
+}
+.itemMenu2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    z-index: 2000;
+}
+.menuItem2:hover .itemMenu2 {
+    display: block;
+}
+/* ____________ Item 3 - Destinos _____________ */
+.flechaM3{
+    position: absolute;
+    bottom: 0px;
+    left: 17px;
+    display: none;
+
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 12px;
+    z-index: 2001;
+    opacity: 0.9;
+}
+.menuItem3:hover .flechaM3 {
+    display: block;
+}
+.menuItem3 {
+    overflow: hidden;
+}
+.itemMenu3 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    z-index: 2000;
+}
+.menuItem3:hover .itemMenu3 {
+    display: block;
+}
+/* ____________ Item 4 - Servicios _____________ */
+.flechaM4{
+    position: absolute;
+    bottom: 0px;
+    left: 17px;
+    display: none;
+
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 12px;
+    z-index: 2001;
+    opacity: 0.9;
+}
+.menuItem4:hover .flechaM4 {
+    display: block;
+}
+.menuItem4 {
+    overflow: hidden;
+}
+.itemMenu4 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    z-index: 2000;
+}
+.menuItem4:hover .itemMenu4 {
+    display: block;
+}
+/* ____________ Item 5 - Promociones _____________ */
+.flechaM5{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    display: none;
+
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 12px;
+    z-index: 2001;
+    opacity: 0.9;
+}
+.menuItem5:hover .flechaM5 {
+    display: block;
+}
+.menuItem5 {
+    overflow: hidden;
+}
+.itemMenu5 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    z-index: 2000;
+}
+.menuItem5:hover .itemMenu5 {
+    display: block;
+}
+
+.bacMenuNavbar {
+    background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #000000BE;
+    opacity: 0.9;
+    padding: 40px 80px;
+}
+
+.txtTittleMenu {
+    text-align: left;
+    font: normal normal 300 24px/33px TAG-font;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    margin: 12px 0;
+}
+
+.txtTittleMenuI {
+    text-align: left;
+    font: normal normal 300 16px/22px TAG-font;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.txtTittleMenuI:hover {
+    color: #33B5E5;
+}
+.txtTittleMenuIOff {
+    text-align: left;
+    font: normal normal 300 16px/22px TAG-font;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 0.5;
+    text-decoration: none;
+    display: none;
+}
+.txtTittleMenuIOff:hover {
+    color: #2B2B2B;
+    opacity: 0.5;
+}
+.navbar, .rm-p {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.dpPais{
+    align-self: center;
+}
+
+.menuContenedor4G{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.menuHcontenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.menuHcontenido > img{
+    height: 35px;
+}
+.divt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar-divider{
+    width: 0px;
+    height: 40px;
+    border-left: 1px solid #A9B6C6;
+    opacity: 1;
+    margin: 0 5px;
+}

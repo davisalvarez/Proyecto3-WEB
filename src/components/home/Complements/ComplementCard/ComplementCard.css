@@ -1,0 +1,59 @@
+.divCItem{
+    width: 380px;
+    height: 318px;
+    min-width: 380px;
+    min-height: 318px;
+    max-width: 380px;
+    max-height: 318px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #90A4AF;
+    opacity: 1;
+    padding: 20px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.txtCCardTitle{
+    text-align: left;
+    font: normal normal 300 22px/20px Avenir;
+    letter-spacing: 0px;
+    color: #33B5E5;
+    text-transform: uppercase;
+    opacity: 1;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.txtCCardInfo{
+    text-align: left;
+    font: normal normal normal 16px/20px Avenir;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+}
+
+.btnCComprar{
+    width: 188px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #00A1ED;
+    opacity: 1;
+
+    text-align: center;
+    font: normal normal normal 18px/20px Avenir;
+    letter-spacing: 0px;
+    color: #00A1ED;
+    margin-right: auto;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+.btnCComprar:hover {
+    background: #00A1ED 0% 0% no-repeat padding-box;
+    border: 1px solid #00A1ED;
+    opacity: 1;
+    color: #FFFFFF;
+}

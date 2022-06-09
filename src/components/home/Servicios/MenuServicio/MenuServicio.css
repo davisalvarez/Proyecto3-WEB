@@ -1,0 +1,45 @@
+
+.containerSM{
+    display: flex;
+    align-items: center;
+}
+.service-menu{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.itemMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.itemMenu > img{
+    height: 50px;
+}
+.itemMenu > h3{
+    text-align: left;
+    font: normal normal 300 26px/24px TAG-font;
+    letter-spacing: 0px;
+    color: #152049;
+    opacity: 1;
+}
+
+.itemMenu > a{
+    text-align: left;
+    font: normal normal 300 16px/22px TAG-font;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    text-decoration: none;
+    margin: 12px 0;
+}
+
+.itemMenu > a:hover{
+    color: #00A1ED;
+}

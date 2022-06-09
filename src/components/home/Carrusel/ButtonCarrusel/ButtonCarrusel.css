@@ -1,0 +1,31 @@
+.btnCarrusel{
+    background: transparent;
+    height: 40px;
+    width: 25px;
+    border: none;
+    border-right: 3px white solid;
+
+    text-align: center;
+    font: normal normal 300 12px/20px TAG-font;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 6px #00000043;
+    opacity: 1;
+    margin: 2px 0;
+    z-index: 100;
+}
+
+.btnCarrusel:hover{
+    font: normal normal 300 14px/20px TAG-font;
+    border-right: 4px white solid;
+}
+
+.btnCAcc{
+    border-right: 5px white solid;
+    font: normal normal 300 16px/20px TAG-font;
+}
+.btnCAcc:hover{
+    border-right: 5px white solid;
+    font: normal normal 300 16px/20px TAG-font;
+
+}
