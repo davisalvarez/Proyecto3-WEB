@@ -1,0 +1,49 @@
+/******************** TAG's Font Family *********************/
+@font-face {
+    font-family: 'TAG-font-Medium';
+    src: url('./fonts/AeonikPro-Medium.otf') format('opentype');
+}
+/* A.K.A. basica*/
+@font-face {
+    font-family: 'TAG-font';
+    src: url('./fonts/AeonikPro-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'TAG-font-Bold';
+    src: url('./fonts/AeonikPro-Bold.otf') format('opentype');
+}
+
+*{
+    user-select: none;
+}
+
+body, p{
+    margin: 0 !important;
+    /*background: #2B2B2B;*/
+}
+
+.hid-e{
+    display: none;
+}
+.showB{
+    display: block;
+}
+.contCen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contEnd{
+    display: flex;
+    justify-content: end;
+}
+
+/* Esconder scroll bar*/
+.hideS::-webkit-scrollbar {
+    display: none;
+}
+.hideS {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
